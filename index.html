@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentl</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    
+</head>
+<body>
+<h1>Lesson 8. Images. Font awesome. Basic animation</h1>
+<div class="font">
+    <h2>Font awesome </h2>
+    <div class="font-list">
+        <ul>
+            <li><i class="far fa-check-square"></i>Marvel</li>
+            <li><i class="fas fa-spinner fa-pulse"></i>DC</li>
+            <li><i class="far fa-square"></i>StarWars</li>
+        </ul>
+    </div>
+    <p>Наведись на синий блок и узри магию</p>
+    <div class="tr">
+        <h2>Transform</h2>
+        <div class="tr_block">
+            <div class="tr_item"></div>
+            <div class="tr_item"></div>
+            <div class="tr_item"></div>
+        </div>
+        <p> Transform & keyframes</p>
+    </div>
+    <div class="background"></div>
+    <h2>CSS Background</h2>
+    <div class="bg_image"></div>
+    <p>выставляем картинку через СSS свойство background</p>
+    </div>
+    <div class="picture">
+        <h2>Image (HTML Picture)</h2>
+        <picture>
+            <source media="(min-width:1360px )" srcset="./image/Marvel.jpg" type="image/jpg">
+            <source media="(min-width:960px )" srcset="./image/dc.jpg" type="image/jpg">
+            <source media="(min-width:560px )" srcset="./image/starwars.jpg" type="image/jpg">
+        <img src="image/marvel.jpg" alt="">
+        </picture>
+
+        <p>
+            Использование тега picture для отображения нужной картинки на нужном разрешении
+        </p>
+        <p> 
+        открой эту страницу на разных девайсах и посмотри результат
+        </p>
+    </div>
+</div>    
+</body>
+</html>
